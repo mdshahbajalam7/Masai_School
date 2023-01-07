@@ -100,23 +100,24 @@
     background: #6FBDCD;
     border-radius: 30px;
 }
-.texdiv h1{
+.h1{
     margin: auto;
     margin-top: 60px;
     width: 50%;
     text-align: center;
     color: white;
+    font-size: 28px;
    
 }
 .texdiv1{
     background: #6FCD9E;
     border-radius: 30px;
 }
-.texdiv1 h1{
+.h1{
     margin: auto;
     margin-top: 60px;
     width: 50%;
     text-align: center;
     color: white;
-   
+    font-size: 28px;
 }

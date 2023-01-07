@@ -36,10 +36,10 @@ function Section() {
         </p>
         <div className="rightinnerdiv1">
           <div className="texdiv">
-            <h1>₹7.2 LPA Average Salary</h1>
+            <h1 className="h1">₹7.2 LPA Average Salary</h1>
           </div>
           <div className="texdiv1">
-            <h1>₹36 LPA Highest Salary</h1>
+            <h1 className="h1">₹36 LPA Highest Salary</h1>
           </div>
         </div>
       </div>
@@ -50,7 +50,9 @@ function Section() {
           alt=""
         />
         <h3>Masai In The News</h3>
-        <button>KNOW MORE</button>
+      <div style={{marginTop:"30px"}}>
+      <button className="btn6">KNOW MORE</button>
+      </div>
       </div>
     </div>
   );

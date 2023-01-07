@@ -1,0 +1,65 @@
+ const skilldata = [
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/paytm_a5c1ce2bc6.svg",
+  },
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/sharechat_23a9923a34.svg",
+  },
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/moneytap_d5a6c9d532.svg",
+  },
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/whitehat_5a86f1e308.svg",
+  },
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/salesken_baefe048ac.svg",
+  },
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/capgemini_31a863e94f.svg",
+  },
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/pagarbook_2746958f65.svg",
+  },
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/airmeet_93e45faced.svg",
+  },
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/swiggy_bc1b88842e.svg",
+  },
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/salesken_baefe048ac.svg",
+  },
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/vyapar_3f3770ebb5.svg",
+  },
+
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/capgemini_31a863e94f.svg",
+  },
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/simplilearn_f8af8de923.svg",
+  },
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/airmeet_93e45faced.svg",
+  },
+  {
+    Images:
+      "https://masai-website-images.s3.ap-south-1.amazonaws.com/bharatpe_a3a5a3f552.svg",
+  },
+];
+
+export default skilldata

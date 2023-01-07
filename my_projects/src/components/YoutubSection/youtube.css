@@ -1,0 +1,36 @@
+.youtube{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    background: #FFFAFB;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 400px;
+}
+/* .youtube{
+    border: 1px solid;
+    height: 200px;
+
+} */
+.youtubesection{
+    width: 50%;
+    border: 1px solid red;
+}
+.youtubetext{
+    width: 50%;
+    border: 1px solid red;
+}
+.h1tag{
+    width: 40%;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.ptag{
+    /* width: 40%; */
+    margin-left: 100px;
+    margin-top: 30px;
+}

@@ -1,0 +1,35 @@
+import { Box } from "@chakra-ui/react";
+import React from "react";
+import "./youtube.css";
+
+function Youtube() {
+  return (
+    <div className="youtube">
+      <div className="youtubetext">
+        <h1 className="h1tag">
+          Masai & N.S.D.C. Announce Strategic Partnership.
+        </h1>
+        <p className="ptag">
+          The partnership with National Skill Development Corporation has the
+          potential to create equal employment opportunity for India’s youth,
+          narrowing the gap between the demand and supply of skilled manpower
+          for the private-sector job market. This collaboration will change the
+          way skill-based education is delivered in India.
+        </p>
+      </div>
+      <div className="youtubesection">
+        <Box
+          as="iframe"
+          alt="Youtube"
+          src="https://youtu.be/6vOmBOvIyPE"
+          allow="autoplay"
+          sx={{
+            aspectRatio: "16/10.7",
+          }}
+        />
+      </div>
+    </div>
+  );
+}
+
+export default Youtube;

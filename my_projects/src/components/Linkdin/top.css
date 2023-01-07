@@ -1,0 +1,19 @@
+.topSection{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    /* background: #FFFAFB; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    height: 400px;
+}
+.topyoutube{
+    width: 50%;
+    border: 1px solid red;
+}
+.linkdintext{
+    width: 50%;
+    border: 1px solid red;
+}

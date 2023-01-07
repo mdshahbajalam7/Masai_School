@@ -14,10 +14,12 @@ function Footer() {
   return (
     <div className="container">
       <div className="footerflex">
-        <h3>Connect with a growing community of learners</h3>
+        <h3 className="h3">Connect with a growing community of learners</h3>
         <button className="btn1">JOIN OUR DISCORD</button>
       </div>
-      <div style={{ marginTop: "20px", color: "gray",border:"1px solid" }} ></div>
+      <div
+        style={{ marginTop: "20px", color: "gray", border: "1px solid" }}
+      ></div>
       {/* <hr style={{ marginTop: "20px", color: "gray" }} /> */}
 
       <div className="masaiflex">
@@ -81,42 +83,77 @@ function Footer() {
           </span>
         </div>
       </div>
-      <div style={{ width:"80%",margin:"auto",marginTop: "20px", color: "gray",border:"1px solid" }} ></div>
+      <div
+        style={{
+          width: "80%",
+          margin: "auto",
+          marginTop: "20px",
+          color: "gray",
+          border: "1px solid",
+        }}
+      ></div>
       <div className="textdiv">
         <div className="innerdiv">
           <div className="MasaiAlumni">
-            <h4>Masai Alumni</h4>
-            <h4>Our Team</h4>
-            <h4>Careers</h4>
-            <h4>Referral Program</h4>
-            <h4>Masai Learn</h4>
+            <h4 className="h4">Masai Alumni</h4>
+            <h4 className="h4">Our Team</h4>
+            <h4 className="h4">Careers</h4>
+            <h4 className="h4">Referral Program</h4>
+            <h4 className="h4">Masai Learn</h4>
           </div>
           <div>
-            <h4>Hire From Us</h4>
-            <h4>Our Investors</h4>
-            <h4>Testimonials</h4>
-            <h4>Blog</h4>
-            <h4>Scholarship</h4>
+            <h4 className="h4">Hire From Us</h4>
+            <h4 className="h4">Our Investors</h4>
+            <h4 className="h4">Testimonials</h4>
+            <h4 className="h4">Blog</h4>
+            <h4 className="h4">Scholarship</h4>
           </div>
           <div>
-            <h4>About Us</h4>
-            <h4>FAQ</h4>
-            <h4>Newsroom</h4>
-            <h4>Contact Us</h4>
-            <h4>Program’d by Masai</h4>
+            <h4 className="h4">About Us</h4>
+            <h4 className="h4">FAQ</h4>
+            <h4 className="h4">Newsroom</h4>
+            <h4 className="h4">Contact Us</h4>
+            <h4 className="h4">Program’d by Masai</h4>
           </div>
         </div>
         <div className="grid">
-          <h5 style={{width:"40%"}}>Get Started Join the Program</h5>
-          <span><button className='btn2'>Get Started</button></span>
+          <h5 style={{ width: "40%" }}>Get Started Join the Program</h5>
+          <span>
+            <button className="btn2">Get Started</button>
+          </span>
         </div>
       </div>
-      <div style={{ width:"80%",margin:"auto",marginTop: "10px", color: "gray",border:"1px solid" }} ></div>
+      <div
+        style={{
+          width: "80%",
+          margin: "auto",
+          marginTop: "10px",
+          color: "gray",
+          border: "1px solid",
+        }}
+      ></div>
+      {/* <AiOutlineCopyright/>z// */}
       <div className="lastfooter">
-      <span style={{color:"gray"}} ><AiOutlineCopyright/> 2023 by Masai Schoo |  A Nolan Edutech Pvt Ltd Venture</span>
-      <span><a style={{color:"gray"}} href="https://www.masaischool.com/privacy/">Privacy Policy</a> <span style={{color:"gray"}}>&</span>  <a style={{color:"gray"}} href="https://www.masaischool.com/terms/">Terms and Conditions</a></span>
+        <span style={{ color: "gray" }}>
+          {" "}
+          2023 by Masai Schoo | A Nolan Edutech Pvt Ltd Venture
+        </span>
+        <span>
+          <a
+            style={{ color: "gray" }}
+            href="https://www.masaischool.com/privacy/"
+          >
+            Privacy Policy
+          </a>{" "}
+          <span style={{ color: "gray" }}>&</span>{" "}
+          <a
+            style={{ color: "gray" }}
+            href="https://www.masaischool.com/terms/"
+          >
+            Terms and Conditions
+          </a>
+        </span>
       </div>
-    
     </div>
   );
 }
