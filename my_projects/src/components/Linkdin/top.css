@@ -15,7 +15,8 @@
 }
 .linkdintext{
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    margin-left: 60px;
 }
 .h1tage{
     padding: 10px;
