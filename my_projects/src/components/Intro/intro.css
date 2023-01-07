@@ -1,0 +1,44 @@
+.introdiv {
+  width: 99.8%;
+  margin: auto;
+  height: 300px;
+  /* border: 1px solid; */
+}
+.introinnerdiv h1 {
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  padding: 0;
+  /* border: 1px solid; */
+  font-size: 30px;
+}
+.introinnerdiv p {
+  text-align: center;
+  width: 25%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 0;
+  /* border: 1px solid; */
+  font-size: 20px;
+}
+.introinnerdiv {
+  /* border: 1px solid; */
+  margin: auto;
+  width: 65%;
+}
+.img {
+  margin-top: -18px;
+}
+.btn3 {
+  margin-top: 20px;
+  margin-left: 35%;
+  border: 1px solid red;
+  width: 30%;
+  text-align: center;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+}
