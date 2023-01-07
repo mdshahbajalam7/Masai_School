@@ -1,0 +1,122 @@
+.sectiongrid {
+  width: 88%;
+  margin: auto;
+  height: 650px;
+  /* border: 1px solid; */
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.right {
+  align-items: center;
+  width: 60%;
+  background-color: #3470e4;
+  height:300px;
+  border-radius: 30px;
+  margin-left: 30px;
+}
+.leftdiv {
+  border: 1px solid;
+  width: 50%;
+  height: 545px;
+  background-color: #6e71cc;
+  justify-content: center;
+  border-radius: 30px;
+}
+.leftdiv h3{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.leftdiv button{
+    margin-left:40% ;
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    margin-top: -10px;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+}
+.rightinnerdiv {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  margin-top: 40px;
+}
+.spandiv {
+  margin-top: 30px;
+  /* margin-left: -px; */
+  font-size: 30px;
+  font-weight: 500;
+  color: gold;
+}
+.spandiv1 {
+  margin-top: 33px;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+  /* border: 1px solid; */
+  width: 60%;
+  margin-left: -30px;
+  text-align: center;
+}
+.spandiv3 {
+  margin-top: 30px;
+  /* margin-left: -px; */
+  font-size: 30px;
+  font-weight: 500;
+  color: gold;
+  /* border: 1px solid; */
+  width: 60%;
+  margin: auto;
+}
+.spandiv4 {
+  color: white;
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.rightinnerdiv1{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 30px;
+    /* border: 1px solid; */
+    /* border-radius: 30px; */
+}
+.rightinnerdiv1 div{
+    margin: auto;
+    width: 48%;
+    /* border: 1px solid; */
+    height: 200px;
+
+}
+.texdiv{
+    background: #6FBDCD;
+    border-radius: 30px;
+}
+.texdiv h1{
+    margin: auto;
+    margin-top: 60px;
+    width: 50%;
+    text-align: center;
+    color: white;
+   
+}
+.texdiv1{
+    background: #6FCD9E;
+    border-radius: 30px;
+}
+.texdiv1 h1{
+    margin: auto;
+    margin-top: 60px;
+    width: 50%;
+    text-align: center;
+    color: white;
+   
+}
