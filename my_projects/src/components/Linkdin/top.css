@@ -6,14 +6,18 @@
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    /* gap: 20px; */
     height: 400px;
 }
 .topyoutube{
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .linkdintext{
     width: 50%;
     border: 1px solid red;
+}
+.h1tage{
+    padding: 10px;
+    font-size: 25px;
 }

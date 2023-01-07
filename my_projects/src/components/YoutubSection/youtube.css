@@ -16,11 +16,11 @@
 } */
 .youtubesection{
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .youtubetext{
     width: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .h1tag{
     width: 40%;
@@ -33,4 +33,18 @@
     /* width: 40%; */
     margin-left: 100px;
     margin-top: 30px;
+}
+.btn8{
+    align-items: center;
+    text-align: center;
+    width: 15%;
+    height: 50px;
+    /* margin: auto; */
+    margin-left: 43%;
+    margin-top: 40px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: 500;
 }
